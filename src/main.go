@@ -82,7 +82,7 @@ func HttpClientTester(urlPath string, respondUser structModule.AuthRequestObject
 	bytes, _ := ioutil.ReadAll(resp.Body)
 	str := string(bytes) //바이트를 문자열로
 	fmt.Println(str)
-
+	fmt.Println(">>>>>")
 	fmt.Println(num)
 
 }
