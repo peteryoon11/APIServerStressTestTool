@@ -1,2 +1,5 @@
 package APIinit
 
+func FuncTest() {
+
+}
