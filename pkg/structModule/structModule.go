@@ -26,3 +26,10 @@ type EBookInfo struct {
 	Forsale string `json:"Forsale"`
 	Price   int    `json:"Price"`
 }
+type TestStruct struct {
+	No      int    `json:"No"`
+	Name    string `json:"Name"`
+	ISBN    string `json:"ISBN"`
+	Forsale string `json:"Forsale"`
+	Price   int    `json:"Price"`
+}
