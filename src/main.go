@@ -10,6 +10,7 @@ import (
 	"strings"
 	"time"
 
+	"../pkg/makeRequestModule"
 	"../pkg/structModule"
 )
 
@@ -60,6 +61,14 @@ func main() {
 
 	fmt.Println("=============")
 	fmt.Println(finishTime.Seconds())
+}
+
+func ThreadFlowControl() {
+	url := "http://localhost:8080/test/server"
+
+	path := "/test/create" //
+	makeRequestModule.MakeCoinProvsionRequestObject(url + path)
+
 }
 func ProcessCore() {
 
